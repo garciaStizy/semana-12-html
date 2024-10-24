@@ -1,0 +1,42 @@
+
+body {
+    font-family: sans-serif; /* Fuente */
+    margin: 0; /* Elimina márgenes por defecto del body */
+}
+
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten a múltiples líneas */
+    justify-content: space-around; /* Distribuye el espacio entre tarjetas */
+    padding: 20px; /* Espaciado interior del contenedor */
+}
+
+
+.tarjeta {
+    width: 300px; /* ancho para las tarjetas */
+    margin: 10px; /* Espacio exterior entre tarjetas */
+    border: 1px solid #ccc; /* Borde gris claro alrededor de las tarjetas */
+    padding: 20px; /* Espaciado interior dentro de la tarjeta */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sdebajo de las tarjetas */
+}
+
+
+.tarjeta img {
+    width: 100%; /* Imagen ocupa todo el ancho de la tarjeta */
+    height: auto; /* Altura  para mantener la proporción */
+    display: block; /* imagen como bloque */
+    border-radius: 5px 5px 0 0; /* Bordes redondeados en la parte superior de la imagen */
+}
+
+/* Estilos para los títulos de las tarjetas */
+.tarjeta h3 {
+    margin-top: 10px; /* Espacio superior del título */
+}
+
+
+.tarjeta p {
+    font-size: 0.9em; /* Tamaño de fuente pequeño */
+    line-height: 1.5; /* Espaciado entre líneas  */
+}
